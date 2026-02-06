@@ -76,6 +76,29 @@ export async function getSession() {
 }
 
 export async function getCurrentUser(): Promise<User> {
+  // Demo mode for frontend-only deployments
+  if (process.env.VERCEL === '1' || process.env.NETLIFY === 'true') {
+    return {
+      id: 'demo-user-id',
+      email: 'demo@taxhacker.app',
+      name: 'Demo User',
+      avatar: null,
+      membershipPlan: 'demo',
+      storageUsed: 0,
+      storageLimit: -1,
+      aiBalance: 100,
+      createdAt: new Date(),
+      updatedAt: new Date(),
+      stripeCustomerId: null,
+      membershipExpiresAt: null,
+      emailVerified: false,
+      businessName: null,
+      businessAddress: null,
+      businessBankDetails: null,
+      businessLogo: null,
+    } as User
+  }
+
   if (config.selfHosted.isEnabled) {
     const user = await getSelfHostedUser()
     if (user) {
