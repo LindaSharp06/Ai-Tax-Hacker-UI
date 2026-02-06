@@ -6,10 +6,10 @@
 
 # TaxHacker — self-hosted AI accountant
 
-[![GitHub Stars](https://img.shields.io/github/stars/vas3k/TaxHacker?color=ffcb47&labelColor=black&style=flat-square)](https://github.com/vas3k/TaxHacker/stargazers)
-[![License](https://img.shields.io/badge/license-MIT-ffcb47?labelColor=black&style=flat-square)](https://github.com/vas3k/TaxHacker/blob/main/LICENSE)
-[![GitHub Issues](https://img.shields.io/github/issues/vas3k/TaxHacker?color=ff80eb&labelColor=black&style=flat-square)](https://github.com/vas3k/TaxHacker/issues)
-[![Donate](https://img.shields.io/badge/-Donate-f04f88?logo=githubsponsors&logoColor=white&style=flat-square)](https://vas3k.com/donate/)
+[![GitHub Stars](https://img.shields.io/github/stars/YusukeM317/ai-Tax-Hacker?color=ffcb47&labelColor=black&style=flat-square)](https://github.com/YusukeM317/ai-Tax-Hacker/stargazers)
+[![License](https://img.shields.io/badge/license-MIT-ffcb47?labelColor=black&style=flat-square)](https://github.com/YusukeM317/ai-Tax-Hacker/blob/main/LICENSE)
+[![GitHub Issues](https://img.shields.io/github/issues/YusukeM317/ai-Tax-Hacker?color=ff80eb&labelColor=black&style=flat-square)](https://github.com/YusukeM317/ai-Tax-Hacker/issues)
+
 
 </div>
 
@@ -110,7 +110,7 @@ Keep complete control over your financial data with local storage and self-hosti
 TaxHacker can be easily self-hosted on your own infrastructure for complete control over your data and application environment. We provide a [Docker image](./Dockerfile) and [Docker Compose](./docker-compose.yml) setup that makes deployment simple:
 
 ```bash
-curl -O https://raw.githubusercontent.com/vas3k/TaxHacker/main/docker-compose.yml
+curl -O https://raw.githubusercontent.com/YusukeM317/ai-Tax-Hacker/main/docker-compose.yml
 
 docker compose up
 ```
@@ -177,7 +177,7 @@ Set up your local development environment:
 
 ```bash
 # Clone the repository
-git clone https://github.com/vas3k/TaxHacker.git
+git clone https://github.com/YusukeM317/ai-Tax-Hacker.git
 cd TaxHacker
 
 # Install dependencies
@@ -221,13 +221,11 @@ We welcome contributions to TaxHacker! Here's how you can help make it even bett
 
 All development happens on GitHub through issues and pull requests. We appreciate any help.
 
-[![PRs Welcome](https://img.shields.io/badge/🤯_PRs-welcome-ffcb47?labelColor=black&style=for-the-badge)](https://github.com/vas3k/TaxHacker/pulls)
+[![PRs Welcome](https://img.shields.io/badge/🤯_PRs-welcome-ffcb47?labelColor=black&style=for-the-badge)](https://github.com/YusukeM317/ai-Tax-Hacker/pulls)
 
 ## ❤️ Support the Project
 
 If TaxHacker has helped you save time or manage your finances better, consider supporting its continued development! Your donations help us maintain the project, add new features, and keep it free and open source. Every contribution helps ensure we can keep improving and maintaining this tool for the community.
-
-[![Thank the TaxHacker devs](https://img.shields.io/badge/❤️-donate%20to%20Taxhacker%20devs-f08080?labelColor=black&style=for-the-badge)](https://vas3k.com/donate/)
 
 ## 📄 License
 

@@ -69,19 +69,19 @@ export async function WelcomeWidget() {
           </p>
         </CardDescription>
         <div className="mt-2">
-          <Link href="https://github.com/vas3k/TaxHacker" className="text-blue-500 hover:underline">
+          <Link href="https://github.com/YusukeM317/ai-Tax-Hacker" className="text-blue-500 hover:underline">
             Source Code
           </Link>
           <span className="mx-2">|</span>
-          <Link href="https://github.com/vas3k/TaxHacker/issues" className="text-blue-500 hover:underline">
+          <Link href="https://github.com/YusukeM317/ai-Tax-Hacker/issues" className="text-blue-500 hover:underline">
             Request New Feature
           </Link>
           <span className="mx-2">|</span>
-          <Link href="https://github.com/vas3k/TaxHacker/issues" className="text-blue-500 hover:underline">
+          <Link href="https://github.com/YusukeM317/ai-Tax-Hacker/issues" className="text-blue-500 hover:underline">
             Report a Bug
           </Link>
           <span className="mx-2">|</span>
-          <Link href="mailto:me@vas3k.ru" className="text-blue-500 hover:underline">
+          <Link href="mailto:Yusukemorimoto234@gmail.com" className="text-blue-500 hover:underline">
             Contact the Author
           </Link>
         </div>

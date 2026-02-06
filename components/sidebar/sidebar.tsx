@@ -142,7 +142,7 @@ export function AppSidebar({
                 {isSelfHosted && (
                   <SidebarMenuItem>
                     <SidebarMenuButton asChild>
-                      <Link href="https://vas3k.com/donate/" target="_blank">
+                      <Link href="https://YusukeM317.com/donate/" target="_blank">
                         <Gift />
                         Thank the author
                       </Link>
